@@ -17,9 +17,9 @@ import threading
 import csv
 
 # Set these to your API keys
-OPENAI_API_KEY = "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"
-ANTHROPIC_API_KEY = "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"
-GEMINI_API_KEY = "AIzaSyC1g55yOvI9wgdEnTKnjUVchxl65jMc6rw"  # Replace with your Gemini API key
+OPENAI_API_KEY = "FILL"
+ANTHROPIC_API_KEY = "FILL"
+GEMINI_API_KEY = "FILL"  # Replace with your Gemini API key
 
 # Output directory
 OUTPUT_DIR = "/data/ep924610/project_nb/paper_code/new_prompt2"
