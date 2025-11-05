@@ -25,7 +25,6 @@ logging.basicConfig(
 logger = logging.getLogger("gemini_analysis")
 
 # API Key for Gemini (use environment variable or set directly)
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyC1g55yOvI9wgdEnTKnjUVchxl65jMc6rw")
 
 def load_gene_lists_from_files(data_dir, top_n=20):
     """Load top genes from CSV files with reduced list size for multiple runs"""
