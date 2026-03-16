@@ -144,7 +144,7 @@ The scoring features include:
 - Protein Vital/Protein Non-Vital: Protein expression levels in vital vs. non-vital tissues from ProteomicsDB
 
 Current weights are:
-
+- Base weight: Clinical trials (1.0), HPA (2.0), Heatmap (5.0), Vital (2.0), Non-vital (1.0), Protein vital (2.0), Protein non-vital (1.0)
 - Clinical trials emphasis: Clinical trials (5.0), HPA (2.0), Heatmap (3.0), Vital (1.0), Non-vital (0.5), Protein vital (1.0), Protein non-vital (0.5)
 - HPA emphasis: Clinical trials (1.0), HPA (5.0), Heatmap (3.0), Vital (1.0), Non-vital (0.5), Protein vital (1.0), Protein non-vital (0.5)
 - Heatmap emphasis: Clinical trials (1.0), HPA (2.0), Heatmap (10.0), Vital (1.0), Non-vital (0.5), Protein vital (1.0), Protein non-vital (0.5)
